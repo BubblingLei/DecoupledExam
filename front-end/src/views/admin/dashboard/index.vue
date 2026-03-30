@@ -156,7 +156,7 @@ const totalTeachers = ref<number>(24);
 const ensureFullUrl = (path: string) => {
   if (!path) return '';
   if (path.startsWith('http://') || path.startsWith('https://')) return path;
-  return `http://localhost:80${path}`;
+  return `http://localhost:81${path}`;
 }
 
 onMounted(async () => {

@@ -1074,12 +1074,10 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="292" parent="1" name="DecoupledExam">
-      <LastIntrospectionLocalTimestamp>2026-01-07.09:13:22</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2026-02-04.12:10:29</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="293" parent="1" name="root">
-      <Plugin>caching_sha2_password</Plugin>
-    </user>
+    <user id="293" parent="1" name="root"/>
     <user id="294" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
@@ -1220,7 +1218,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
     <column id="322" parent="298" name="course_id">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>4</AutoIncrement>
       <Comment>课程ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1311,7 +1309,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>uk_invite_code</UnderlyingIndexName>
     </key>
     <column id="339" parent="299" name="exam_id">
-      <AutoIncrement>15</AutoIncrement>
+      <AutoIncrement>34</AutoIncrement>
       <Comment>考试ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1390,7 +1388,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="353" parent="300" name="answer_id">
-      <AutoIncrement>61</AutoIncrement>
+      <AutoIncrement>112</AutoIncrement>
       <Comment>答题ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1621,7 +1619,7 @@ course_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="394" parent="303" name="paper_id">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>14</AutoIncrement>
       <Comment>试卷ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1759,7 +1757,7 @@ question_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="418" parent="305" name="record_id">
-      <AutoIncrement>15</AutoIncrement>
+      <AutoIncrement>33</AutoIncrement>
       <Comment>记录ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1847,7 +1845,7 @@ student_id</ColNames>
       <UnderlyingIndexName>uk_exam_student</UnderlyingIndexName>
     </key>
     <column id="434" parent="306" name="setting_id">
-      <AutoIncrement>15</AutoIncrement>
+      <AutoIncrement>34</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -1998,7 +1996,7 @@ student_id</ColNames>
       <UnderlyingIndexName>uk_exam</UnderlyingIndexName>
     </key>
     <column id="458" parent="307" name="id">
-      <AutoIncrement>11</AutoIncrement>
+      <AutoIncrement>10</AutoIncrement>
       <Comment>主键ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2081,7 +2079,7 @@ is_deleted</ColNames>
       <UnderlyingIndexName>uk_student_question</UnderlyingIndexName>
     </key>
     <column id="472" parent="308" name="id">
-      <AutoIncrement>159</AutoIncrement>
+      <AutoIncrement>234</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2210,7 +2208,7 @@ is_deleted</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="496" parent="310" name="id">
-      <AutoIncrement>258</AutoIncrement>
+      <AutoIncrement>383</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2255,7 +2253,7 @@ tag_name</ColNames>
       <UnderlyingIndexName>uk_question_tag</UnderlyingIndexName>
     </key>
     <column id="504" parent="311" name="type_id">
-      <AutoIncrement>18</AutoIncrement>
+      <AutoIncrement>17</AutoIncrement>
       <Comment>题型ID</Comment>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
@@ -2304,7 +2302,7 @@ tag_name</ColNames>
       <UnderlyingIndexName>uk_name</UnderlyingIndexName>
     </key>
     <column id="514" parent="312" name="id">
-      <AutoIncrement>57</AutoIncrement>
+      <AutoIncrement>85</AutoIncrement>
       <Comment>题目ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2405,7 +2403,7 @@ tag_name</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="532" parent="313" name="event_id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>9</AutoIncrement>
       <Comment>安全事件ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2532,7 +2530,7 @@ course_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="555" parent="315" name="grade_id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>6</AutoIncrement>
       <Comment>成绩记录ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2664,7 +2662,7 @@ course_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="579" parent="316" name="subject_id">
-      <AutoIncrement>2</AutoIncrement>
+      <AutoIncrement>3</AutoIncrement>
       <Comment>学科ID</Comment>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
@@ -2746,7 +2744,7 @@ grade_level</ColNames>
       <UnderlyingIndexName>uk_code</UnderlyingIndexName>
     </key>
     <column id="594" parent="317" name="log_id">
-      <AutoIncrement>1626</AutoIncrement>
+      <AutoIncrement>3947</AutoIncrement>
       <Comment>日志唯一ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -2953,7 +2951,7 @@ subject_id</ColNames>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
     <column id="631" parent="320" name="user_id">
-      <AutoIncrement>7</AutoIncrement>
+      <AutoIncrement>9</AutoIncrement>
       <Comment>用户ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
@@ -3055,7 +3053,7 @@ subject_id</ColNames>
       <UnderlyingIndexName>UK_ob8kqyqqgmefl0aco34akdtpe</UnderlyingIndexName>
     </key>
     <column id="651" parent="321" name="login_id">
-      <AutoIncrement>28</AutoIncrement>
+      <AutoIncrement>74</AutoIncrement>
       <Comment>登录日志ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
