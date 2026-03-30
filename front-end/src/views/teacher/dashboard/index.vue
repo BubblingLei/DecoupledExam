@@ -210,7 +210,7 @@ async function loadAvatar(token: string) {
 function ensureFullUrl(path: string) {
   if (!path) return '';
   if (path.startsWith('http://') || path.startsWith('https://')) return path;
-  return `http://localhost:80${path}`;
+  return `${import.meta.env.VITE_RESOURCES_URL}${path}`;
 }
 </script>
 

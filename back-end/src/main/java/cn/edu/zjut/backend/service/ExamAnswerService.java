@@ -43,9 +43,11 @@ public class ExamAnswerService {
         ExamSettingDAO examSettingDAO = new ExamSettingDAO();
         ExamDAO examDAO = new ExamDAO();
         StudentCourseDAO studentCourseDAO = new StudentCourseDAO();
+        StudentGradeDAO studentGradeDAO = new StudentGradeDAO();
         examDAO.setSession(session);
         examAnswerDAO.setSession(session);
         studentCourseDAO.setSession(session);
+        studentGradeDAO.setSession(session);
 
         Transaction tran = null;
 
@@ -98,6 +100,20 @@ public class ExamAnswerService {
                 examAnswerDAO.save(examAnswer);
                 examRecordDAO.updateExamRecord(session, examRecord);
             }
+
+            // 插入成绩（适配数据库）
+            StudentGrade studentGrade = new StudentGrade();
+            studentGrade.setStudentId(ExamContext.getStudentId());
+            studentGrade.setCourseId(1L);
+            studentGrade.setSubjectId(1);
+            studentGrade.setGradeType("ONLINE_EXAM");
+            studentGrade.setSourceId(examId);
+            studentGrade.setGradeName(exam.getTitle());
+            studentGrade.setScore(examRecord.getTotalScore());
+            studentGrade.setTeacherId(exam.getTeacherId());
+            studentGrade.setRecordTime(new Date());
+            studentGrade.setFullScore(BigDecimal.valueOf(100));
+            studentGradeDAO.add(studentGrade);
 
             tran.commit();
             return true;
@@ -602,6 +618,7 @@ public class ExamAnswerService {
 
             System.out.println(examAnswer);
             System.out.println(examRecord);
+
 
             // 如果没有拿满分，则记录错题
             if(examAnswer.getScore().compareTo(examPaperQuestion.getScore()) < 0){

@@ -9,6 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="52d7f3ef-4c7d-4dae-9bb8-15d30d440cd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a5c91139-4086-4e87-ad9b-c81b5c6006fd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a5c91139-4086-4e87-ad9b-c81b5c6006fd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/zjut/backend/service/ExamAnswerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/zjut/backend/service/ExamAnswerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/views/admin/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/src/views/admin/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/views/examPage/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/src/views/examPage/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/views/student/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/src/views/student/dashboard/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/views/teacher/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/src/views/teacher/dashboard/index.vue" afterDir="false" />
+=======
     <list default="true" id="17c8d23f-91c9-4eba-906d-4933e9c040db" name="更改" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/zjut/backend/junit_test/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
@@ -23,6 +34,7 @@
       <change beforePath="$PROJECT_DIR$/../front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front-end/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../front-end/src/views/student/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../front-end/src/views/student/dashboard/index.vue" afterDir="false" />
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +80,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+<<<<<<< HEAD
+    &quot;Application.SM4test.executor&quot;: &quot;Run&quot;,
+=======
     &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.UserServiceTest.testLogin.executor&quot;: &quot;Run&quot;,
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;Tomcat 服务器.Tomcat 11.0.4.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;wxh&quot;,
@@ -79,15 +95,25 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+<<<<<<< HEAD
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+=======
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.16835326&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Application.SM4test">
+    <configuration name="EmailTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.zjut.backend.app.EmailTest" />
+=======
   <component name="RunManager" selected="JUnit.UserServiceTest">
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
       <module name="back-end" />
       <shortenClasspath name="ARGS_FILE" />
       <extension name="coverage">
@@ -103,7 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="SM4test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.zjut.backend.app.SM4test" />
+      <module name="back-end" />
+      <shortenClasspath name="ARGS_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.zjut.backend.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.zjut.backend.app.TestMain" />
+=======
     <configuration name="UserServiceTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
       <module name="back-end" />
       <shortenClasspath name="ARGS_FILE" />
       <extension name="coverage">
@@ -215,10 +260,24 @@
         </option>
       </method>
     </configuration>
+<<<<<<< HEAD
+    <list>
+      <item itemvalue="Application.SM4test" />
+      <item itemvalue="Application.EmailTest" />
+      <item itemvalue="Application.TestMain" />
+      <item itemvalue="Tomcat Server.Tomcat 11.0.3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SM4test" />
+        <item itemvalue="Application.EmailTest" />
+        <item itemvalue="Application.TestMain" />
+=======
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserServiceTest.testLogin" />
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
       </list>
     </recent_temporary>
   </component>
@@ -237,6 +296,26 @@
       <created>1767803130034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1767705471043</updated>
+      <workItem from="1767705472871" duration="7757000" />
+      <workItem from="1767725557373" duration="167000" />
+      <workItem from="1767763398273" duration="9964000" />
+      <workItem from="1767887018634" duration="7995000" />
+      <workItem from="1767918673449" duration="183000" />
+      <workItem from="1767918986379" duration="11792000" />
+      <workItem from="1768369150239" duration="7298000" />
+      <workItem from="1768445458230" duration="1854000" />
+      <workItem from="1768566137879" duration="3393000" />
+      <workItem from="1768725928017" duration="3484000" />
+      <workItem from="1770129785942" duration="1571000" />
+      <workItem from="1770200809831" duration="4635000" />
+      <workItem from="1774418949366" duration="2367000" />
+      <workItem from="1774574868897" duration="133000" />
+      <workItem from="1774597863100" duration="9048000" />
+      <workItem from="1774620286163" duration="975000" />
+      <workItem from="1774849041367" duration="358000" />
+=======
       <updated>1767803130034</updated>
       <workItem from="1767803132332" duration="842000" />
       <workItem from="1767838945557" duration="16330000" />
@@ -249,6 +328,7 @@
       <workItem from="1774416816375" duration="10556000" />
       <workItem from="1774438857645" duration="1527000" />
 
+>>>>>>> 3eb79c9428ab7841188ad3605162ed5a50be6edc
     </task>
     <servers />
   </component>

@@ -504,6 +504,7 @@ const addExamAnswer = () => {
   useRequest(()=>addExamAnswerAPI({answers: answers.value, examId: examId.value}),{
     onBefore(){
       localStorage.setItem('localAnswers', JSON.stringify(answers.value)) // 保存本地答案
+      isExamStarted.value = false
     },
 
     onSuccess(res){
@@ -517,10 +518,12 @@ const addExamAnswer = () => {
           })
         })
       }else{
+        isExamStarted.value = true
         ElNotification({title: 'Warning', message: res['msg'], type: 'warning',})
       }
     },
     onError(err){
+      isExamStarted.value = true
       ElNotification({title: 'Error', message: err.message, type: 'error',})
     },
   })
